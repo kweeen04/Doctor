@@ -43,6 +43,7 @@ public class Menu {
 
     public void addDoctor() {
         try {
+            System.out.println("--------- Add Doctor ----------");
             Doctor doctor = view.getDoctorInfo();
             model.addDoctor(doctor);
             System.out.println("Doctor added successfully.");

@@ -24,7 +24,6 @@ public class View {
     }
 
     public Doctor getDoctorInfo() {
-        System.out.println("--------- Add Doctor ----------");
         scanner.nextLine();
         System.out.print("Enter Code: ");
         String code = scanner.nextLine();
